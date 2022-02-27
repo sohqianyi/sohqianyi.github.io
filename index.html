@@ -126,7 +126,7 @@
                                 <span class="about_info-name">Years of <br> Software <br> Development,<br> UI/UX</span>
                             </div>
                             <div>
-                                <span class="about_info-title">3</span>
+                                <span class="about_info-title">4</span>
                                 <span class="about_info-name">Completed <br> Projects</span>
                             </div>
                             <div>
@@ -343,6 +343,25 @@
                             <!-- </div> -->
                         </div>
 
+                        <div class="project_content grid swiper-slide">
+                            <!-- <div class="project_content_qmepls"> -->
+                                <iframe class="project_img" src="https://www.youtube.com/embed/caVfsUpyoqA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+                                <div class="project_data">
+                                    <h3 class="project_title">Multidisciplinary Project</h3>
+                                    <p class="project_description">
+                                        - Raspberry Pi<br>
+                                        - Image Recognition with EfficientDet Lite Model<br>
+                                        - Multithreading with Bluetooth and Wifi Connections<br>
+                                        </p>
+                                    <a href="https://www.youtube.com/embed/caVfsUpyoqA" target="_blank" class="button button--flex project_button">
+                                        View Project 
+                                        <i class="uil uil-play button_icon"></i>
+                                    </a>
+                                </div>
+                            <!-- </div> -->
+                        </div>
+
                         <!-- mozzyshield -->
                         <div class="project_content grid swiper-slide">
                             <img src="assets/img/mozzyshield.png" alt="" class="project_img">
@@ -429,29 +448,35 @@
                         </div>
                     </div>
 
-                    <form action="" class="contact_form grid">
+                    <form target="_blank" action="https://formsubmit.co/c47751f315f63ad25c9714ac82be32fa" method="POST" class="contact_form grid" id="submit_form">
                         <div class="contact_inputs grid">
                             <div class="contact_content">
                                 <label for="" class="contact_label">Name</label>
-                                <input type="text" class="contact_input">
+                                <input type="text" name="name" class="contact_input" required>
                             </div>
                             <div class="contact_content">
                                 <label for="" class="contact_label">Email</label>
-                                <input type="email" class="contact_input">
+                                <input type="email" name="email" class="contact_input" required>
                             </div>
                             <div class="contact_content">
                                 <label for="" class="contact_label">Subject</label>
-                                <input type="text" class="contact_input">
+                                <input type="text" name="subject" class="contact_input" required>
                             </div>
                             <div class="contact_content">
                                 <label for="" class="contact_label">Message</label>
-                                <textarea name="" id="" cols="0" rows="7" class="contact_input"></textarea>
+                                <textarea name="message" id="" cols="0" rows="7" class="contact_input" required></textarea>
                             </div>
-                            <div>
-                                <a href="#" class="button button--flex contact_button">
+                            <!-- <div>
+                                <a href="javascript:{}" onclick="submitForm()"  class="button button--flex contact_button">
                                     Send Message
                                     <i class="uil uil-message button_icon"></i>
                                 </a>
+                            </div> -->
+                            <div>
+                                <button type="submit" class="button button--flex contact_button">
+                                    Send Message
+                                    <i class="uil uil-message button_icon"></i>
+                                </button>
                             </div>
                             
                         </div>
@@ -470,6 +495,9 @@
                     <ul class="footer_links">
                         <li>
                             <a href="#about" class="footer_link">About</a>
+                        </li>
+                        <li>
+                            <a href="#skills" class="footer_link">Skills</a>
                         </li>
                         <li>
                             <a href="#projects" class="footer_link">Projects</a>
@@ -508,5 +536,6 @@
 
         <!--==================== MAIN JS ====================-->
         <script src="assets/js/main.js"></script>
+
     </body>
 </html>
