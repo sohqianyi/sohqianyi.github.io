@@ -288,12 +288,6 @@ img {
   grid-template-columns: 0.25fr 3fr;
 }
 
-.home_social {
-  display: grid;
-  grid-template-columns: max-content;
-  row-gap: 1rem;
-}
-
 .home_social-icon {
   font-size: 1.25rem;
   color: var(--first-color);
@@ -301,6 +295,11 @@ img {
 
 .home_social-icon:hover {
   color: var(--first-color-alt);
+}
+
+.home_img {
+  /* order: 1; */
+  justify-self: right;
 }
 
 .home_blob {
@@ -725,6 +724,12 @@ li.software-skill-inline img {
     width: 200px;
     border-radius: 0.5rem;
     justify-self: center;
+  }
+
+  .home_social {
+    display: grid;
+    grid-template-columns: max-content;
+    row-gap: 1rem;
   }
 }
 
