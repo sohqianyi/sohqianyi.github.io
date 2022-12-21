@@ -550,6 +550,13 @@ li.software-skill-inline img {
 /* Active Modal */
 
 /*==================== PORTFOLIO ====================*/
+.portfolio_bg {
+  /* background-color: var(--first-color-second); */
+  border: 1px solid gray;
+  padding: 5rem;
+  width: 100%;
+  height: 20rem;
+}
 
 /*==================== PROJECT IN MIND ====================*/
 
