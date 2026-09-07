@@ -1,7 +1,14 @@
 # Responsive Portfolio Website Alexa
 ## [Watch it on youtube](https://youtu.be/27JtRAI3QO8)
-### Responsive Portfolio Website Alexa
-Responsive Portfolio Website Using Html, Css and JavaScript, With a beautiful user interface. It contains a Header, Home, About, Skills, Qualification, Services, Portfolio, Project in mind, Testimonial, Contact and Footer.
-Don't forget to join the channel for more videos like this. [Bedimcode](https://www.youtube.com/c/Bedimcode)
+# Qian Yi Portfolio
 
-![Resume cv](/preview.png)
+React and Vite portfolio site with shared navigation, dark mode, responsive project browsing, and a hash-routed UI/UX portfolio page.
+
+## Run locally
+
+```bash
+npm install
+npm run dev
+```
+
+Use `npm run build` to create the production bundle. The legacy `portfolio.html` URL redirects to `index.html#/portfolio` so existing links continue to work.
